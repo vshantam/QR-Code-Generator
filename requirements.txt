@@ -1,0 +1,11 @@
+Basic requirements are :
+	1:->python installed (version python>=2 or python>=3)
+	2:->required library:i>png
+			    :ii>pyqrcode
+			    :iii>qrcode
+			    :iv>zbar
+if not installed please installed using pip or easy_install commands.
+'''example:-pip install package_name
+	   #in case of png: pip install pypng
+	   #incase of zbar :apt-get install libzbar-dev
+
