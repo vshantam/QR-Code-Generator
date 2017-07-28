@@ -15,8 +15,14 @@ class qrgenerator:
 		qr.png(os.getcwd()+str('/secret.png'),scale=scale_factor)
 
 	def openbarcode(self):
-		img=plt.imshow(os.getcwd()+str('/secret.png'),interpolation='bicubic')
+		img=cv2.imread(os.getcwd()+str('/secret.png'),cv2.IMREAD_COLOR)
+		img=plt.imshow(img,interpolation='bicubic')
 		plt.xticks(())
 		plt.yticks(())
 		plt.show()
 			       
+if __name__=='__main__':
+	obj=qrgenerator()
+	obj.generate()
+	obj.openbarcode()
+	print("Quitting Application...")
