@@ -14,3 +14,9 @@ class qrgenerator:
 		#saving image
 		qr.png(os.getcwd()+str('/secret.png'),scale=scale_factor)
 
+	def openbarcode(self):
+		img=plt.imshow(os.getcwd()+str('/secret.png'),interpolation='bicubic')
+		plt.xticks(())
+		plt.yticks(())
+		plt.show()
+			       
