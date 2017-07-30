@@ -8,5 +8,5 @@ Basic requirements are :
 if not installed please installed using pip or easy_install commands.
 '''example:-pip install package_name
 	   #in case of png: pip install pypng
-	   #incase of zbar :apt-get install libzbar-dev
+	   #incase of zbar :apt-get install libzbar-dev'''
 
