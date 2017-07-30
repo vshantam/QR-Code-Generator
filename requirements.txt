@@ -1,7 +1,7 @@
-pypng
-pyqrcode
-qrcode
-zbar
-qrtools
+pypng>=0.2
+pyqrcode>=0.2
+qrcode>=0.23
+zbar>=0.2
+qrtools>=0.2
 
 
