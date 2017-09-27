@@ -8,6 +8,7 @@ class qrgenerator(object):
 		#or using qrcode : qrcode.make(contents)
 		#saving image
 		qr.png(os.getcwd()+str('/secret.png'),scale=scale_factor)
+	@classmethod
 	def openbarcode(self):
 		img=cv2.imread(os.getcwd()+str('/secret.png'),cv2.IMREAD_COLOR)
 		img=plt.imshow(img,interpolation='bicubic')
