@@ -1,8 +1,6 @@
 from lib import *
 #setting scale_factor
-
 scale_factor=6 #or choose as you like
-
 class qrgenerator(object):
 	
 	@classmethod
