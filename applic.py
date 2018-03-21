@@ -37,17 +37,17 @@ class qrgenerator(object):
 		return showimg
 	
 	#creating classmethod and defining decoding function
-	#@classmethod
-	#def decode(self,path):
+	#@classmethod#remove this comment
+	#def decode(self,path):#remove this comment
 
 		#provide the path of existing qrcode image
 		#creating the object
-		#qr = qrtools.QR()
+		#qr = qrtools.QR()#remove this comment
 		#extracting the result
-		#res = qr.decode(path)
+		#res = qr.decode(path)#remove this comment
 
 		#returning the result
-		#return res
+		#return res#remove this comment
 
 	#creating clasmethod and creating the main function	
 	@classmethod
@@ -81,9 +81,9 @@ if __name__=='__main__':
 	
 	if ans == "y":
 		path = "/secret.png"
-		#res =  obj.decode(path)
-		#print("The decoded msg is :{}".format(res.data))
-		pass
+		#res =  obj.decode(path)#remove comment
+		#print("The decoded msg is :{}".format(res.data))#remove comment
+		pass#comment this section
 
 	else:
 
