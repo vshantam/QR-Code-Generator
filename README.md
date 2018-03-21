@@ -39,14 +39,14 @@ Your application should run perfectly.
 Make sure your linus system is updated recently or you may face certain error.
 Try to run the following command before you run the applcation #Good Practice.
 
-    sudoe apt-get update && apt-get dist-upgrade
+    sudo apt-get update && apt-get dist-upgrade
     
 # Output
 If everything went perfectly as it suppose to the you will see the output like bellow named secret.png and it will be saved in the same working directory.
 
 ![alt_tag](secret.png)
 
-The above Qr code is been encoded with the text "Hello zameer!" and if you scan it, you should probally get the same.
+The above Qr code is been encoded with the text "Hello zameer!" and if you scan it, you should probably get the same.
 
 
     
