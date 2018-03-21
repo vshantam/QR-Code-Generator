@@ -44,7 +44,7 @@ Try to run the following command before you run the applcation #Good Practice.
 # Output
 If everything went perfectly as it suppose to the you will see the output like bellow named secret.png and it will be saved in the same working directory.
 
-![alt_tag]('/secret.png')
+![alt_tag](secret.png)
 
 
     
