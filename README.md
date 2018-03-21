@@ -46,6 +46,8 @@ If everything went perfectly as it suppose to the you will see the output like b
 
 ![alt_tag](secret.png)
 
+The above Qr code is been encoded with the text "Hello zameer!" and if you scan it, you should probally get the same.
+
 
     
     
