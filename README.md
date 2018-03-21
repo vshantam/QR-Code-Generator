@@ -37,7 +37,7 @@ follow the steps:
     3. After running the above command you will be asked to enter the text to be encoded.Enter the text and you are good to go.
     
 Your application should run perfectly.
-Make sure your linus system is updated recently or you may face certain error.
+Make sure your linux system is updated recently or you may face certain error.
 Try to run the following command before you run the applcation #Good Practice.
 
     sudo apt-get update && apt-get dist-upgrade
