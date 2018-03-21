@@ -34,6 +34,7 @@ follow the steps:
       
         cd QR-Code-Generator
     2. python applic.py
+    3. After running the above command you will be asked to enter the text to be encoded.Enter the text and you are good to go.
     
 Your application should run perfectly.
 Make sure your linus system is updated recently or you may face certain error.
