@@ -8,5 +8,7 @@ Basic requirements are :
 if not installed please installed using pip or easy_install commands.
 '''example:-pip install package_name
 	   #in case of png: pip install pypng
-	   #incase of zbar :apt-get install libzbar-dev'''
-
+	   #in case of zbar :apt-get install libzbar-dev'''
+or run the following command:
+	sudo apt-get update && apt-get dist-upgrade 
+	pip install -r spec.txt && apt-get install libzbar-dev
