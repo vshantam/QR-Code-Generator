@@ -4,3 +4,4 @@ qrcode >= 0.0
 qrtools >= 0.0
 pillow >= 0.0
 matplotlib >= 0.0
+zbar >= 0.0
