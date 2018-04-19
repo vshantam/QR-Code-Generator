@@ -1,6 +1,7 @@
 #Taking care of important modules
 
-import sys,os
+import sys
+import os
 import png
 import pyqrcode
 import qrcode
